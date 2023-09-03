@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.b1a9idps'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.itextpdf:itext7-core:8.0.1'
+}
+
+test {
+    useJUnitPlatform()
+}
