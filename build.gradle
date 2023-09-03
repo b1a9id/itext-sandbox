@@ -5,6 +5,15 @@ plugins {
 group = 'com.b1a9idps'
 version = '1.0-SNAPSHOT'
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+compileJava {
+    options.encoding = 'UTF-8'
+}
+
 repositories {
     mavenCentral()
 }
