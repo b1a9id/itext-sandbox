@@ -13,7 +13,7 @@ public class C01E01_HelloWorld {
 
     public static void main(String[] args) throws IOException {
         var pdfCreator = new HelloWorldPdfCreator(DEST);
-        pdfCreator.createPdf();
+        pdfCreator.generatePdf();
     }
 
     private static class HelloWorldPdfCreator extends AbstractPdfCreator {

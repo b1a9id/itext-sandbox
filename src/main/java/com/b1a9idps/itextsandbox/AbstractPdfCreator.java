@@ -13,7 +13,7 @@ public abstract class AbstractPdfCreator {
         this.destPath = destPath;
     }
 
-    void generatePdf() throws IOException {
+    public void generatePdf() throws IOException {
         File file = new File(destPath());
         file.getParentFile().mkdirs();
         createPdf();
